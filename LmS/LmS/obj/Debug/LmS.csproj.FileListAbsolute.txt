@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\bin\Debug\LmS.exe.config
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\bin\Debug\LmS.exe
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\bin\Debug\LmS.pdb
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\obj\Debug\LmS.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\obj\Debug\LmS.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\obj\Debug\LmS.exe
+C:\Users\USER\Desktop\Devcodecamp\cs\Lemonade-Stand\LmS\LmS\obj\Debug\LmS.pdb
