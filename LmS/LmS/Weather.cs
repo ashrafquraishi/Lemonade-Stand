@@ -41,6 +41,11 @@ namespace LmS
             Temperature = random.Next(55, 99);
 
         }
+        public void RandomTemperatureForecast()
+        {
+            Random random = new Random();
+            TemperatureForecast = random.Next(55, 99);
+        }
         
 
 
