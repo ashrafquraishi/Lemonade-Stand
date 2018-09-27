@@ -30,6 +30,40 @@ namespace LmS
             Lemons = 6;
 
         }
+        public void IngredientSelection()
+        {
+            string UserInput;
+            Console.WriteLine("Do wish to buy ingredients(y/n)");
+           UserInput = Console.ReadLine();
+
+            if (UserInput == "y")
+            {
+                List<string> IngredientSelection = new List<string> {"Sugar","Lemons","Ice","PaperCups",  };
+                foreach(string Inventory in IngredientSelection)
+                {
+                    Console.Write(IngredientSelection);
+
+
+
+                }
+                if (UserInput== "n")
+                {
+
+
+
+
+
+                }
+
+
+
+
+
+
+            }
+                
+        }
+         
 
 
     }
