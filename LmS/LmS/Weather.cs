@@ -8,6 +8,48 @@ namespace LmS
 {
     class Weather
     {
-        //ra
+        public string Condition;
+        public int Temperature;
+        public string ConditionForecast;
+        public int TemperatureForecast;
+
+
+        List<string> PossibleConditions;
+        public Weather()
+        {
+            PossibleConditions.Add("Sunny");
+            PossibleConditions.Add("Rain");
+            PossibleConditions.Add("Cloudy");
+            PossibleConditions.Add("Snow");
+
+        }
+
+        public void RandomCondition()
+        {
+            Random random = new Random();
+            Condition = PossibleConditions[random.Next(0, PossibleConditions.Count)];
+                
+        }
+        public void RandomConditionForecast()
+        {
+            Random random = new Random();
+            ConditionForecast = PossibleConditions[random.Next(0, PossibleConditions.Count)];
+        }
+        public void RandomTemperature()
+        {
+            Random random = new Random();
+            Temperature = random.Next(55, 99);
+
+        }
+        
+
+
+
+
+
+
+
+
+
     }
 }
