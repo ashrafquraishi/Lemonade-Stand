@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace LmS
 {
-    class Inventory
+    class Store
     {
         //Inventory and their pricing
         // member variables
         //
-        public Double LemonPrice = 0.50;
-        public int Lemons;
+        public Double Lemons= 0.50;
+        public int LemonsQuantity;
         // SugarCup= 6 cups of Lemonade
         public Double Sugar = 0.40;
         public int SugarCup;
@@ -20,43 +20,39 @@ namespace LmS
         public int IceCubes;
         public Double PaperCups = 0.65;
         public int CupsQuantity; 
-        public int Budget = 20;
+       public string SelectedItem
 
         public void IngredientsQuantity()
         {
             SugarCup = 2;
             IceCubes = 100;
             CupsQuantity = 10;
-            Lemons = 6;
+            LemonsQuantity = 6;
 
         }
         public void IngredientSelection()
         {
             string UserInput;
             Console.WriteLine("Do wish to buy ingredients(y/n)");
-           UserInput = Console.ReadLine();
+           UserInput = Console.ReadLine();   
 
             if (UserInput == "y")
             {
-                List<string> IngredientSelection = new List<string> {"Sugar","Lemons","Ice","PaperCups",  };
-                foreach(string Inventory in IngredientSelection)
-                {
+                Console.WriteLine("Please Enter Sugar,Icecubes,PaperCups,lemon to buy any of these ingredients");
+              
+
+               
                     Console.Write(IngredientSelection);
+                    Console.Write("Enter how much Sugar you need for a Lemonade
 
 
-
-                }
-                if (UserInput== "n")
+            
+                if (UserInput == "n")
                 {
 
 
 
-
-
                 }
-
-
-
 
 
 
