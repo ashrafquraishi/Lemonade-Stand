@@ -11,7 +11,7 @@ namespace LmS
         static void Main(string[] args)
         {
 
-            Weather weather = new Weather();
+            Store store = new Store();
            
 
         }
