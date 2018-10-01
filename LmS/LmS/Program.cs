@@ -10,12 +10,9 @@ namespace LmS
     {
         static void Main(string[] args)
         {
-            Introduction introduction = new Introduction();
-            List<string> results = introduction.AddIntroduction();
-            introduction.DisplayIntroduction(results);
 
-            Console.ReadLine();
-
+            Weather weather = new Weather();
+           
 
         }
     }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace LmS
 {
-    class Customers
+    class Customer
     {
+        //mv
+        string DrinkBudget;
+        
+        string PreferedWeather;
+        
+
     }
 }

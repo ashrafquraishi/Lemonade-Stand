@@ -8,5 +8,23 @@ namespace LmS
 {
     class Player
     {
+
+        public double wallet = 20;
+       
+        public string PlayerInventory;
+        public double Recipe;
+        public double DayProfit;
+        public double DayLoss;
+
+        public void WalletExpenses(double demandCost)
+        { 
+            wallet -= demandCost;
+            Console.WriteLine("You have remaining:" + wallet);
+
+
+        }
+
+
     }
+     
 }
